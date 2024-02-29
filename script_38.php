@@ -1,0 +1,9 @@
+<?php
+$myarray=array(1,2,3,4,5);
+array_shift($myarray);
+print_r($myarray);
+echo "<br><br>";
+array_unshift($myarray,6);
+print_r($myarray);
+
+?>
